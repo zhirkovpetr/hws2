@@ -1,12 +1,10 @@
 .loader {
-  width: 100px;
-  height: 100px;
+  width: 108px;
+  height: 108px;
   border-radius: 50%;
-  background: conic-gradient(#0000 30%, #474bff);
-  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
-  mask: radial-gradient(farthest-side, #474bff 94%, #0000) top/9px 9px no-repeat;
-
-
+  background: radial-gradient(farthest-side,#474bff 94%,#0000) top/9px 9px no-repeat,
+  conic-gradient(#0000 30%,#474bff);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
   animation: loader-animation 1.5s infinite linear;
 }
 

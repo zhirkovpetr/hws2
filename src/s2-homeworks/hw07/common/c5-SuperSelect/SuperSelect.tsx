@@ -37,6 +37,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         if (onChangeOption) {
+            debugger
             onChangeOption(Number(e.currentTarget.value))
         }
     }
